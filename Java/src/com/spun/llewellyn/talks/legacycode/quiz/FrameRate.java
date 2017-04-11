@@ -24,7 +24,7 @@ public class FrameRate
 
 class TvType
 {
-  public static TvType   NTSC            = new TvType();
   private static Integer NTSC_FRAME_RATE = 30;
+  public static TvType   NTSC            = new TvType();
   public Integer         FrameRate       = NTSC_FRAME_RATE;
 }
