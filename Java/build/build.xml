@@ -5,7 +5,6 @@
 		<delete dir="${build}/com/spun" />
 		<echo>${targetJavaClass}</echo>
 		<javac srcdir="${src}" destdir="${build}" debug="true" includes="${targetJavaClass}" source="1.6" target="1.6" listfiles="false" encoding="UTF-16">
-			<exclude name="**/tests/**" if="excludeTests" />
 			<classpath>
 				<fileset dir="${src}/jars">
 					<include name="**/*.jar" />
