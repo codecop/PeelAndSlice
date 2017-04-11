@@ -11,7 +11,7 @@ bin/
 *.swp
 *.coverage
 
-build/Output
+Java/build/Output
 
 #######################
 ## Java
